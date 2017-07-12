@@ -1,0 +1,17 @@
+<section>
+
+    <h3>Inputs in Angular</h3>
+  <p>{{ message }}</p>
+
+  <select [(ngModel)]='mySelection'
+           (change)="reactToSelection()">
+    <option value="">Click to see options</option>
+    <option value="Ketchup"> Chicken and Pasta (with Ketchup)</option>
+    <option value="bell">Taco Bell</option>
+    <option value="Sushi"> Sushi </option>
+    <option value="Las">Lasagna</option>
+    <option value="ceviche">Ceviche</option>
+    <option value="mojo">Mojo Chicken</option>
+  </select>
+
+</section>
